@@ -8,7 +8,8 @@ body{
 }
 .container{
     width: 26%;
-    height: 53%;
+    /* height: 53%; */
+    height: max-content;
     background-color: white;
     color: black;
     position: absolute;
@@ -29,7 +30,7 @@ form{
 h1{
     text-align: center;
     position: relative;
-    top: 80px;
+    margin-top: 80px;
     transform: scale(1.15);
 }
 h2{
@@ -43,6 +44,8 @@ form{
     width: 100%;
     margin-bottom: 20px;
     padding-left: 6px;
+    border-radius: 3px ;
+    border: 1px solid black;
 }
 button{
     width: 100%;
